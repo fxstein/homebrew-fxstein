@@ -1,6 +1,6 @@
-# Fxstein Fxstein
+# fxstein homebrew tap
 
-## How do I install these formulae?
+## How do I install formulae from this tap?
 
 `brew install fxstein/fxstein/<formula>`
 
