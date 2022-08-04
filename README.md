@@ -1,5 +1,7 @@
 # fxstein homebrew tap
 
+[![brew test-bot](https://github.com/fxstein/homebrew-fxstein/actions/workflows/tests.yml/badge.svg)](https://github.com/fxstein/homebrew-fxstein/actions/workflows/tests.yml)
+
 ## How do I install formulae from this tap?
 
 `brew install fxstein/fxstein/<formula>`
