@@ -1,4 +1,4 @@
-class goprox < Formula
+class GOPROX < Formula
     desc "GoProX - The missing GoPro workflow manager for zsh."
     homepage "https://github.com/fxstein/GoProX"
     url "https://github.com/fxstein/GoProX/archive/refs/tags/v00.08.07.tar.gz"
