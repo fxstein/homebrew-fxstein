@@ -11,6 +11,6 @@ class Goprox < Formula
 
   def install
     bin.install "goprox"
-    bin.install Dir["firmware/*"]
+    bin.install Dir["firmware"]
   end
 end
