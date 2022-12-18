@@ -13,5 +13,6 @@ class Goprox < Formula
     bin.install "goprox"
     bin.install "firmware"
     bin.install "firmware.labs"
+    man1.install "man/goprox.1"
   end
 end
