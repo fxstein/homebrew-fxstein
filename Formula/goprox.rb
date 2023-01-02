@@ -16,19 +16,19 @@ class Goprox < Formula
     man1.install "man/goprox.1"
   end
 
-  install do
-    # Copy the com.goprox.plist file to the users LaunchAgents directory
-    cp "#{pkgshare}/launchctl/com.goprox.mount.plist" "~/Library/LaunchAgents"
+  # install do
+  #   # Copy the com.goprox.plist file to the users LaunchAgents directory
+  #   cp "#{pkgshare}/launchctl/com.goprox.mount.plist" "~/Library/LaunchAgents"
   
-    # Load the com.goprox.plist file and register it with launchd
-    # system "launchctl", "load", "~/Library/LaunchAgents/com.goprox.mount.plist"
-  end
+  #   # Load the com.goprox.plist file and register it with launchd
+  #   # system "launchctl", "load", "~/Library/LaunchAgents/com.goprox.mount.plist"
+  # end
   
-  uninstall do
-    # Unload the com.goprox.plist file and remove it from launchd
-    # system "launchctl", "unload", "~/Library/LaunchAgents/com.goprox.mount.plist"
+  # uninstall do
+  #   # Unload the com.goprox.plist file and remove it from launchd
+  #   # system "launchctl", "unload", "~/Library/LaunchAgents/com.goprox.mount.plist"
   
-    # Remove the com.goprox.plist file from the LaunchAgents directory
-    rm "~/Library/LaunchAgents/com.goprox.mount.plist"
-  end
+  #   # Remove the com.goprox.plist file from the LaunchAgents directory
+  #   rm "~/Library/LaunchAgents/com.goprox.mount.plist"
+  # end
 end
