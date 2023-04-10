@@ -8,9 +8,6 @@ class Goprox < Formula
   depends_on "exiftool"
   depends_on "jq"
 
-  # Dependency removed as per fxstein/GoProX PR #51
-  # depends_on "tag"
-
   def install
     bin.install "goprox"
     bin.install "firmware"
