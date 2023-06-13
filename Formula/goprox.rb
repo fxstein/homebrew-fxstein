@@ -1,8 +1,8 @@
 class Goprox < Formula
   desc "Missing GoPro workflow manager for zsh"
   homepage "https://github.com/fxstein/GoProX"
-  url "https://github.com/fxstein/GoProX/archive/refs/tags/v00.51.00.tar.gz"
-  sha256 "84627702538dd3ee23c1a284eba9434a1f7708e56801c7212186725330b7c4b5"
+  url "https://github.com/fxstein/GoProX/archive/refs/tags/v00.52.00.tar.gz"
+  sha256 "ac6bab4d5f59898542866e9bc0339c8f7c550a78dba9f1dfdcb0e778e7f3653c"
   license "MIT"
 
   depends_on "exiftool"
