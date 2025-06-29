@@ -3,7 +3,7 @@ class GoproxDev < Formula
   homepage "https://github.com/fxstein/GoProX"
   version "20250629-dev"
   url "https://github.com/fxstein/GoProX/archive/develop.tar.gz"
-  sha256 "c767e8d04dd3e40721ef2597fcad2226c255a43cec3eacf89eb53118da35cfac"
+  sha256 "3d7c2a724a439d2ab68bdc93a750b6bd15cacf6706ff50e1cee6e62037c435d5"
   
   depends_on "zsh"
   depends_on "exiftool"
