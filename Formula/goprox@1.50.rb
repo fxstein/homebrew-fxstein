@@ -1,5 +1,5 @@
-class Goprox < Formula
-  desc "GoPro media management tool"
+class GoproxAT150 < Formula
+  desc "GoPro media management tool (version 1.50)"
   homepage "https://github.com/fxstein/GoProX"
   version "v01.10.00"
   url "https://github.com/fxstein/GoProX/archive/vv01.10.00.tar.gz"
