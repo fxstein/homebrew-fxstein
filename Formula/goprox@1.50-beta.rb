@@ -2,8 +2,8 @@ class GoproxAT150Beta < Formula
   desc "GoPro media management tool (beta)"
   homepage "https://github.com/fxstein/GoProX"
   version "v01.10.00-beta.20250630"
-  url "https://github.com/fxstein/GoProX/archive/92c68fef8b540c8470f5b486991bb984fc216c02.tar.gz"
-  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+  url "https://github.com/fxstein/GoProX/archive/357de522eba52576bc3bf713e9ee875de96f264a.tar.gz"
+  sha256 "bcd6dc3618edd7ed506defe8c7e474da3c2b5acfe7cf6d851fb2319ae2bc3da2"
   
   depends_on "zsh"
   depends_on "exiftool"
