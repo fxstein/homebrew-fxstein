@@ -1,9 +1,9 @@
 class GoproxBeta < Formula
   desc "GoPro media management tool (beta)"
   homepage "https://github.com/fxstein/GoProX"
-  version "[2025-06-28 22:53:05] [ERROR] Error on line 57: -beta.20250628"
-  url "https://github.com/fxstein/GoProX/archive/b56b4327eec1e51594dd8bcfa5fcfff04acab299.tar.gz"
-  sha256 "1f04a90f7115a4972f6b890f315a75122151c03a8a766b322952d353852172b9"
+  version "-beta.20250630"
+  url "https://github.com/fxstein/GoProX/archive/80aa4e65050143a49c34d7719839be0cfe9d5d49.tar.gz"
+  sha256 "034f4baedcf2ccfd43638d7af00c6c70597497769d4f7d2bf0950e703d303293"
   
   depends_on "zsh"
   depends_on "exiftool"
