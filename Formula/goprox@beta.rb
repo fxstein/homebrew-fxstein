@@ -1,4 +1,4 @@
-class GoproxBeta < Formula
+class Goprox@beta < Formula
   desc "GoPro media management tool (beta)"
   homepage "https://github.com/fxstein/GoProX"
   version "v01.10.00-beta.20250630"
